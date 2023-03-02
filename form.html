@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion/Inscription</title>
+    <link rel="icon" href="./visuels/Logo_loba.svg">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container-form">
+
+        <header class="head-nav">
+            <nav>
+                <img class="Logo_loba" src="./Visuels/Logo_loba.svg" alt="#">
+
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Dons</a></li>
+                </ul>
+
+                <a type="co-but">Connexion</a>
+
+                <div>FR</div>
+            </nav>
+        </header>
+
+        <div class="main-form">
+            <div class="login-section">
+                <div class="formbox login">
+                    <form action="">
+                        <h2>Connexion</h2>
+
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class='bx bxs-envelope'></i>
+                            </span>
+                            <input type="email" required>
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class='bx bxs-lock-alt'></i>
+                            </span>
+                            <input type="password" required>
+                            <label for="password">Mot de passe</label>
+                        </div>
+
+                        <div class="rem-password">
+                            <label for=""><input type="checkbox">Se souvenir de moi</label>
+                            <a href="#">Mot de passe oublié</a>
+                        </div>
+                        
+                        <button class="btn-val">Validez</button>
+
+                        <div class="crea-account">
+                            <p>Création d'un compte ?  <a href="#" class="register-link">  Inscription</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="formbox register">
+                    <form action="">
+                        <h2>Inscription</h2>
+
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class='bx bxs-envelope'></i>
+                            </span>
+                            <input type="email" required>
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class='bx bxs-lock-alt'></i>
+                            </span>
+                            <input type="password" required>
+                            <label for="password">Mot de passe</label>
+                        </div>
+                        
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class='bx bxs-lock-alt'></i>
+                            </span>
+                            <input type="password" required>
+                            <label for="password">Confirmez votre mot de passe</label>
+                        </div>
+                        
+                        <button class="btn-val">Validez</button>
+
+                        <div class="crea-account">
+                            <p>Vous avez déjà un compte ?  <a href="#" class="login-link">  Connexion</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="foo">
+            <div class="foo-container">
+                <div class="foo-row">
+                    <div class="foo-col">
+                        <h4>Lô-Ba</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Affilate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="foo-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order status</a></li>
+                            <li><a href="#">Payment option</a></li>
+                        </ul>
+                    </div>
+                    <div class="foo-col">
+                        <h4>Online shop</h4>
+                        <ul>
+                            <li><a href="#">Groceries</a></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Dress</a></li>
+                            <li><a href="#">Smartphones</a></li>
+                        </ul>
+                    </div>
+                    <div class="foo-col">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="./form.js"></script>
+</body>
+</html>
